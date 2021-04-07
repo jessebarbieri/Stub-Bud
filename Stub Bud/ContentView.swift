@@ -19,23 +19,27 @@ struct ContentView: View {
     @State private var selected_state = "New Jersey"
     @State var isModal: Bool = false
     var body: some View {
+        NavigationView{
             VStack{
-                Text("Select Your State").font(.largeTitle).fontWeight(.bold).padding().foregroundColor(Color(.black))
+                Text("Select Your State").font(.largeTitle).fontWeight(.bold).foregroundColor(Color(.black)).padding(.bottom, 25.0)
                 Picker("State", selection: $selected_state){
                     ForEach(state_dict.keys.sorted(), id:\.self){
-                    Text($0)
-                        .foregroundColor(Color(.black))
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        Text($0)
+                            .foregroundColor(Color(.black))
+                            .fontWeight(.bold)
+                    }
+                }.padding(.bottom, 50.0)
+                Image(getState(state: selected_state)).resizable().frame(width: 225, height: 225, alignment: .center).padding(.bottom, 25.0)
+                NavigationLink(
+                    destination: SecondView(/*state: $selected_state*/)){
+                    Text("Next").foregroundColor(.black).font(.title2).padding(.top, 50.0).padding(.bottom, 100.0)
                 }
+                
             }
-            Image(getState(state: selected_state)).resizable().frame(width: 225, height: 225, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            
-                Button("Next"){
-                    self.isModal = true
-                }.sheet(isPresented: $isModal, content: {
-                    SecondView()
-                }).foregroundColor(.black).font(.title2).padding(.top, 50.0)
-            }
+        }
+        .padding(.top, -15.0)
+        
+        
     }
 }
 
