@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABB3C6A261CDBFD003C119B /* Stub_BudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB3C69261CDBFD003C119B /* Stub_BudApp.swift */; };
+		1ABB3C6C261CDBFD003C119B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB3C6B261CDBFD003C119B /* ContentView.swift */; };
+		1ABB3C6E261CDBFE003C119B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABB3C6D261CDBFE003C119B /* Assets.xcassets */; };
+		1ABB3C71261CDBFE003C119B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABB3C70261CDBFE003C119B /* Preview Assets.xcassets */; };
+		1ABB3C7C261CDBFE003C119B /* Stub_BudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB3C7B261CDBFE003C119B /* Stub_BudTests.swift */; };
+		1ABB3C87261CDBFE003C119B /* Stub_BudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB3C86261CDBFE003C119B /* Stub_BudUITests.swift */; };
+		1ABB3C98261D3A4A003C119B /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB3C97261D3A4A003C119B /* SecondView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ABB3C78261CDBFE003C119B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ABB3C5E261CDBFD003C119B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ABB3C65261CDBFD003C119B;
+			remoteInfo = "Stub Bud";
+		};
+		1ABB3C83261CDBFE003C119B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ABB3C5E261CDBFD003C119B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ABB3C65261CDBFD003C119B;
+			remoteInfo = "Stub Bud";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ABB3C66261CDBFD003C119B /* Stub Bud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stub Bud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABB3C69261CDBFD003C119B /* Stub_BudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub_BudApp.swift; sourceTree = "<group>"; };
+		1ABB3C6B261CDBFD003C119B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1ABB3C6D261CDBFE003C119B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ABB3C70261CDBFE003C119B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ABB3C72261CDBFE003C119B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABB3C77261CDBFE003C119B /* Stub BudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stub BudTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABB3C7B261CDBFE003C119B /* Stub_BudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub_BudTests.swift; sourceTree = "<group>"; };
+		1ABB3C7D261CDBFE003C119B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABB3C82261CDBFE003C119B /* Stub BudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stub BudUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABB3C86261CDBFE003C119B /* Stub_BudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub_BudUITests.swift; sourceTree = "<group>"; };
+		1ABB3C88261CDBFE003C119B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABB3C97261D3A4A003C119B /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABB3C63261CDBFD003C119B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABB3C74261CDBFE003C119B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABB3C7F261CDBFE003C119B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABB3C5D261CDBFD003C119B = {
+			isa = PBXGroup;
+			children = (
+				1ABB3C68261CDBFD003C119B /* Stub Bud */,
+				1ABB3C7A261CDBFE003C119B /* Stub BudTests */,
+				1ABB3C85261CDBFE003C119B /* Stub BudUITests */,
+				1ABB3C67261CDBFD003C119B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABB3C67261CDBFD003C119B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB3C66261CDBFD003C119B /* Stub Bud.app */,
+				1ABB3C77261CDBFE003C119B /* Stub BudTests.xctest */,
+				1ABB3C82261CDBFE003C119B /* Stub BudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABB3C68261CDBFD003C119B /* Stub Bud */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB3C69261CDBFD003C119B /* Stub_BudApp.swift */,
+				1ABB3C6B261CDBFD003C119B /* ContentView.swift */,
+				1ABB3C97261D3A4A003C119B /* SecondView.swift */,
+				1ABB3C6D261CDBFE003C119B /* Assets.xcassets */,
+				1ABB3C72261CDBFE003C119B /* Info.plist */,
+				1ABB3C6F261CDBFE003C119B /* Preview Content */,
+			);
+			path = "Stub Bud";
+			sourceTree = "<group>";
+		};
+		1ABB3C6F261CDBFE003C119B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB3C70261CDBFE003C119B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1ABB3C7A261CDBFE003C119B /* Stub BudTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB3C7B261CDBFE003C119B /* Stub_BudTests.swift */,
+				1ABB3C7D261CDBFE003C119B /* Info.plist */,
+			);
+			path = "Stub BudTests";
+			sourceTree = "<group>";
+		};
+		1ABB3C85261CDBFE003C119B /* Stub BudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB3C86261CDBFE003C119B /* Stub_BudUITests.swift */,
+				1ABB3C88261CDBFE003C119B /* Info.plist */,
+			);
+			path = "Stub BudUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABB3C65261CDBFD003C119B /* Stub Bud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABB3C8B261CDBFE003C119B /* Build configuration list for PBXNativeTarget "Stub Bud" */;
+			buildPhases = (
+				1ABB3C62261CDBFD003C119B /* Sources */,
+				1ABB3C63261CDBFD003C119B /* Frameworks */,
+				1ABB3C64261CDBFD003C119B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stub Bud";
+			productName = "Stub Bud";
+			productReference = 1ABB3C66261CDBFD003C119B /* Stub Bud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ABB3C76261CDBFE003C119B /* Stub BudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABB3C8E261CDBFE003C119B /* Build configuration list for PBXNativeTarget "Stub BudTests" */;
+			buildPhases = (
+				1ABB3C73261CDBFE003C119B /* Sources */,
+				1ABB3C74261CDBFE003C119B /* Frameworks */,
+				1ABB3C75261CDBFE003C119B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ABB3C79261CDBFE003C119B /* PBXTargetDependency */,
+			);
+			name = "Stub BudTests";
+			productName = "Stub BudTests";
+			productReference = 1ABB3C77261CDBFE003C119B /* Stub BudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1ABB3C81261CDBFE003C119B /* Stub BudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABB3C91261CDBFE003C119B /* Build configuration list for PBXNativeTarget "Stub BudUITests" */;
+			buildPhases = (
+				1ABB3C7E261CDBFE003C119B /* Sources */,
+				1ABB3C7F261CDBFE003C119B /* Frameworks */,
+				1ABB3C80261CDBFE003C119B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ABB3C84261CDBFE003C119B /* PBXTargetDependency */,
+			);
+			name = "Stub BudUITests";
+			productName = "Stub BudUITests";
+			productReference = 1ABB3C82261CDBFE003C119B /* Stub BudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABB3C5E261CDBFD003C119B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1ABB3C65261CDBFD003C119B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1ABB3C76261CDBFE003C119B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1ABB3C65261CDBFD003C119B;
+					};
+					1ABB3C81261CDBFE003C119B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1ABB3C65261CDBFD003C119B;
+					};
+				};
+			};
+			buildConfigurationList = 1ABB3C61261CDBFD003C119B /* Build configuration list for PBXProject "Stub Bud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ABB3C5D261CDBFD003C119B;
+			productRefGroup = 1ABB3C67261CDBFD003C119B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABB3C65261CDBFD003C119B /* Stub Bud */,
+				1ABB3C76261CDBFE003C119B /* Stub BudTests */,
+				1ABB3C81261CDBFE003C119B /* Stub BudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABB3C64261CDBFD003C119B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABB3C71261CDBFE003C119B /* Preview Assets.xcassets in Resources */,
+				1ABB3C6E261CDBFE003C119B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABB3C75261CDBFE003C119B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABB3C80261CDBFE003C119B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABB3C62261CDBFD003C119B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABB3C98261D3A4A003C119B /* SecondView.swift in Sources */,
+				1ABB3C6C261CDBFD003C119B /* ContentView.swift in Sources */,
+				1ABB3C6A261CDBFD003C119B /* Stub_BudApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABB3C73261CDBFE003C119B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABB3C7C261CDBFE003C119B /* Stub_BudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABB3C7E261CDBFE003C119B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABB3C87261CDBFE003C119B /* Stub_BudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ABB3C79261CDBFE003C119B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ABB3C65261CDBFD003C119B /* Stub Bud */;
+			targetProxy = 1ABB3C78261CDBFE003C119B /* PBXContainerItemProxy */;
+		};
+		1ABB3C84261CDBFE003C119B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ABB3C65261CDBFD003C119B /* Stub Bud */;
+			targetProxy = 1ABB3C83261CDBFE003C119B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1ABB3C89261CDBFE003C119B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ABB3C8A261CDBFE003C119B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ABB3C8C261CDBFE003C119B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stub Bud/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stub Bud/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jesse-Barbieri.Stub-Bud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ABB3C8D261CDBFE003C119B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stub Bud/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stub Bud/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jesse-Barbieri.Stub-Bud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1ABB3C8F261CDBFE003C119B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stub BudTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jesse-Barbieri.Stub-BudTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stub Bud.app/Stub Bud";
+			};
+			name = Debug;
+		};
+		1ABB3C90261CDBFE003C119B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stub BudTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jesse-Barbieri.Stub-BudTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stub Bud.app/Stub Bud";
+			};
+			name = Release;
+		};
+		1ABB3C92261CDBFE003C119B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stub BudUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jesse-Barbieri.Stub-BudUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stub Bud";
+			};
+			name = Debug;
+		};
+		1ABB3C93261CDBFE003C119B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stub BudUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jesse-Barbieri.Stub-BudUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stub Bud";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABB3C61261CDBFD003C119B /* Build configuration list for PBXProject "Stub Bud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABB3C89261CDBFE003C119B /* Debug */,
+				1ABB3C8A261CDBFE003C119B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABB3C8B261CDBFE003C119B /* Build configuration list for PBXNativeTarget "Stub Bud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABB3C8C261CDBFE003C119B /* Debug */,
+				1ABB3C8D261CDBFE003C119B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABB3C8E261CDBFE003C119B /* Build configuration list for PBXNativeTarget "Stub BudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABB3C8F261CDBFE003C119B /* Debug */,
+				1ABB3C90261CDBFE003C119B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABB3C91261CDBFE003C119B /* Build configuration list for PBXNativeTarget "Stub BudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABB3C92261CDBFE003C119B /* Debug */,
+				1ABB3C93261CDBFE003C119B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ABB3C5E261CDBFD003C119B /* Project object */;
+}
