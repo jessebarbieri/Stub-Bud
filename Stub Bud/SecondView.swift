@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct SecondView: View {
-    //@Binding var state: String
+    @Binding var selected_state: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Text(selected_state)
+        }
+        
     }
 }
 
+
 struct SecondView_Previews: PreviewProvider {
+   @State static var selected_state = "New Jersey"
+    
     static var previews: some View {
-        SecondView()
+        SecondView(selected_state: $selected_state)
     }
 }
+
+

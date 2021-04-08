@@ -28,10 +28,10 @@ struct ContentView: View {
                             .foregroundColor(Color(.black))
                             .fontWeight(.bold)
                     }
-                }.padding(.bottom, 50.0)
+                }.padding(.bottom, 25.0)
                 Image(getState(state: selected_state)).resizable().frame(width: 225, height: 225, alignment: .center).padding(.bottom, 25.0)
                 NavigationLink(
-                    destination: SecondView(/*state: $selected_state*/)){
+                    destination: SecondView(selected_state: self.$selected_state)){
                     Text("Next").foregroundColor(.black).font(.title2).padding(.top, 50.0).padding(.bottom, 100.0)
                 }
                 
