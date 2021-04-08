@@ -17,7 +17,9 @@ let middle = UIScreen.main.bounds.size.width/2
  */
 struct ContentView: View {
     @State private var selected_state = "New Jersey"
+    let abrev = "NJ"
     @State var isModal: Bool = false
+    
     var body: some View {
         NavigationView{
             VStack{
@@ -31,7 +33,7 @@ struct ContentView: View {
                 }.padding(.bottom, 25.0)
                 Image(getState(state: selected_state)).resizable().frame(width: 225, height: 225, alignment: .center).padding(.bottom, 25.0)
                 NavigationLink(
-                    destination: SecondView(selected_state: self.$selected_state)){
+                    destination: SecondView(selected_state: self.$selected_state, abrev: getState(state: selected_state))){
                     Text("Next").foregroundColor(.black).font(.title2).padding(.top, 50.0).padding(.bottom, 100.0)
                 }
                 
