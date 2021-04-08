@@ -14,7 +14,7 @@ struct SecondView: View {
     var marital_array = ["Single", "Married"]
     var rate_array = ["Salary", "Hourly"]
     @State var marital_status = 0
-    @State var pay_rate = 1
+    @State var pay_rate = 0
     @State var pay_frequency = "Bi-Weekly"
     var body: some View {
     VStack{
@@ -44,7 +44,7 @@ struct SecondView: View {
                         Text("Semi-Monthly").tag(3)
                         Text("Monthly").tag(4)
                         Text("Annually").tag(5)
-        }).scaleEffect(0.75).frame(width: 250, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: .center).padding(.bottom, 50)
+        }).scaleEffect(0.95).frame(width: 250, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: .center)
         }
     }
 }
