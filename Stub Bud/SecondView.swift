@@ -50,11 +50,11 @@ struct SecondView: View {
             }.pickerStyle(SegmentedPickerStyle()).frame(width: 150, height: 25, alignment: .center)
         }
         Section{
-            Slider(value: $hours_worked, in: 0...160).scaleEffect(0.75)
+            Slider(value: $hours_worked, in: 0...160).scaleEffect(0.75).accentColor(.black)
             Text("Hours  \(hours_worked, specifier: "%.2f") Per Pay Period")
         }.disabled(pay_rate == 0)
         Section{
-            Slider(value: $overtime_hours, in: 0...512).scaleEffect(0.75)
+            Slider(value: $overtime_hours, in: 0...512).scaleEffect(0.75).accentColor(.black)
             Text("Overtime Hours  \(overtime_hours, specifier: "%.2f") Per Pay Period")
         }
         
