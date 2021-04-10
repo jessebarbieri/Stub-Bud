@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct SecondView: View {
     @Binding var selected_state: String
     let abrev: String
@@ -32,9 +33,7 @@ struct SecondView: View {
         Picker(selection: $pay_frequency, label: Text("Pay Frequency"), content: {
                         Text("Weekly").tag(1)
                         Text("Bi-Weekly").tag(2)
-                        Text("Semi-Monthly").tag(3)
-                        Text("Monthly").tag(4)
-                        Text("Annually").tag(5)
+                        Text("Annually").tag(3)
         }).frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/).padding(.bottom, 50).scaleEffect(0.85)
         
         HStack{
@@ -49,14 +48,12 @@ struct SecondView: View {
                 }
             }.pickerStyle(SegmentedPickerStyle()).frame(width: 150, height: 25, alignment: .center)
         }
-        Section{
-            Slider(value: $hours_worked, in: 0...getHours(frequency: self.$pay_frequency)).scaleEffect(0.75).accentColor(.black)
-            Text("Hours  \(hours_worked, specifier: "%.2f") Per Pay Period")
+        
+        HStack{
+            Text("Hourly Rate ")
+            // https://github.com/youjinp/SwiftUIKit <-- Use this to import something that can allow easy input of this value
+            
         }.disabled(pay_rate == 0)
-        Section{
-            Slider(value: $overtime_hours, in: 0...512).scaleEffect(0.75).accentColor(.black)
-            Text("Overtime Hours  \(overtime_hours, specifier: "%.2f") Per Pay Period")
-        }
         
         Text("It will be assumed that the overtime rate is 1.5x in our calculation.").fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/).frame(width: UIScreen.main.bounds.size.width-25, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         }
@@ -73,24 +70,3 @@ struct SecondView_Previews: PreviewProvider {
     }
 }
 
-/*
-func getHours(frequency: Binding<String>.Type) -> Double {
-    var maximum_hours: Double = 0
-    
-    if(frequency == "Weekly"){
-        maximum_hours = 80
-    }
-    else if(frequency == "Bi-Weekly"){
-        maximum_hours = 160
-    }
-    else if(frequency == "Semi-Monthly"){
-        maximum_hours = 180
-    }
-    else if(frequency == "Monthly"){
-        maximum_hours = 320
-    }
-    
-    return maximum_hours
-
-}
-*/
