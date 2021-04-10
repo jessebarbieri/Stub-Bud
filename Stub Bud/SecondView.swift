@@ -50,7 +50,7 @@ struct SecondView: View {
             }.pickerStyle(SegmentedPickerStyle()).frame(width: 150, height: 25, alignment: .center)
         }
         Section{
-            Slider(value: $hours_worked, in: 0...160).scaleEffect(0.75).accentColor(.black)
+            Slider(value: $hours_worked, in: 0...getHours(frequency: self.$pay_frequency)).scaleEffect(0.75).accentColor(.black)
             Text("Hours  \(hours_worked, specifier: "%.2f") Per Pay Period")
         }.disabled(pay_rate == 0)
         Section{
@@ -73,3 +73,24 @@ struct SecondView_Previews: PreviewProvider {
     }
 }
 
+/*
+func getHours(frequency: Binding<String>.Type) -> Double {
+    var maximum_hours: Double = 0
+    
+    if(frequency == "Weekly"){
+        maximum_hours = 80
+    }
+    else if(frequency == "Bi-Weekly"){
+        maximum_hours = 160
+    }
+    else if(frequency == "Semi-Monthly"){
+        maximum_hours = 180
+    }
+    else if(frequency == "Monthly"){
+        maximum_hours = 320
+    }
+    
+    return maximum_hours
+
+}
+*/
